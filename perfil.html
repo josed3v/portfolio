@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfólio — José Luiz Vieira</title>
+  <style>
+    :root{--accent:#FF7A18;--dark:#0f1720;--muted:#6b7280;--card:#0b1220}
+    *{box-sizing:border-box}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;margin:0;background:linear-gradient(180deg,#071223 0%, #071a2a 100%);color:#e6eef6;line-height:1.5}
+    .container{max-width:980px;margin:36px auto;padding:28px}
+    header{display:flex;align-items:center;gap:20px}
+    .avatar{width:96px;height:96px;border-radius:14px;background:linear-gradient(135deg,var(--accent),#ffb47a);display:flex;align-items:center;justify-content:center;font-weight:700;color:#081023}
+    h1{font-size:28px;margin:0}
+    p.lead{color:var(--muted);margin:6px 0 0}
+    .grid{display:grid;grid-template-columns:1fr 340px;gap:22px;margin-top:22px}
+    .card{background:rgba(255,255,255,0.03);padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(2,6,23,0.6)}
+    .section-title{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
+    h2{font-size:18px;margin:0}
+    ul{padding-left:18px;margin:0}
+    .skills{display:flex;flex-wrap:wrap;gap:8px}
+    .skill{background:rgba(255,255,255,0.04);padding:8px 10px;border-radius:999px;font-size:13px;color:var(--muted)}
+    .project{border-left:3px solid rgba(255,255,255,0.04);padding:12px;margin-bottom:12px;border-radius:8px}
+    .project h3{margin:0 0 6px;font-size:15px}
+    .muted{color:var(--muted);font-size:13px}
+    .tag{display:inline-block;padding:6px 8px;border-radius:8px;background:rgba(0,0,0,0.2);font-size:13px;margin-right:8px}
+    footer{margin-top:18px;color:var(--muted);font-size:13px}
+    .contact a{color:var(--accent);text-decoration:none}
+    @media(max-width:900px){.grid{grid-template-columns:1fr;}.avatar{width:80px;height:80px}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="avatar">JL</div>
+      <div>
+        <h1>Jose Luiz Vieira</h1>
+        <p class="lead">Marketing Digital • Programação • Soluções para conteúdo, automação e produtos digitais</p>
+        <p class="muted">Itapagipe, MG • disponível para projetos locais e remotos</p>
+      </div>
+    </header>
+
+    <div class="grid">
+      <main>
+        <section class="card">
+          <div class="section-title"><h2>Sobre mim</h2><span class="muted">Resumo</span></div>
+          <p>Sou um profissional que une estratégia de marketing e habilidades técnicas em programação para construir produtos digitais que vendem e entregam valor. Trabalho com criação de conteúdo, gestão de redes, campanhas pagas, desenvolvimento de sites e automações que otimizam processos.</p>
+          <div style="margin-top:12px">
+            <div class="tag">Foco em resultados</div>
+            <div class="tag">Criatividade + Código</div>
+            <div class="tag">Análise de métricas</div>
+          </div>
+        </section>
+
+        <section class="card" style="margin-top:16px">
+          <div class="section-title"><h2>Projetos em destaque</h2><span class="muted">Cases reais</span></div>
+
+          <article class="project">
+            <h3>Site institucional — Tech Assistência</h3>
+            <div class="muted">HTML / CSS / JavaScript</div>
+            <p>Desenvolvi o site da empresa local para aumentar a presença online e facilitar pedidos de orçamento. Implementação responsiva com foco em conversão.</p>
+            <p class="muted">Resultado: +65% de pedidos de orçamento em 2 meses.</p>
+          </article>
+
+          <article class="project">
+            <h3>Campanha para clínica odontológica</h3>
+            <div class="muted">Social Media • Anúncios • Conteúdo</div>
+            <p>Planejei e executei cronograma de posts, reels e anúncios segmentados no Instagram. Produção de criativos e copy com foco em captação de novos pacientes.</p>
+            <p class="muted">Resultado: +40% de engajamento e +25% em consultas agendadas.</p>
+          </article>
+
+          <article class="project">
+            <h3>Gestão de redes — Itainformática</h3>
+            <div class="muted">Social Media • Anúncios • Conteúdo</div>
+            <p>Criação de estratégias de conteúdo para redes sociais, campanhas de anúncios e posts voltados para aumentar a visibilidade da marca e gerar mais orçamentos.</p>
+            <p class="muted">Resultado: aumento de seguidores e alcance orgânico, além de melhora na taxa de resposta em mensagens.</p>
+          </article>
+
+          <article class="project">
+            <h3>Sistema de gestão de leads</h3>
+            <div class="muted">C# • MySQL</div>
+            <p>Criação de um CRUD interno para cadastro, classificação e acompanhamento de leads, integrando fluxo de atendimento com a equipe comercial.</p>
+            <p class="muted">Impacto: redução de 30% no tempo de resposta aos contatos.</p>
+          </article>
+
+          <article class="project">
+            <h3>Automação de e-mails para e‑commerce</h3>
+            <div class="muted">Python • Google Sheets • API Gmail</div>
+            <p>Automatizei envios de campanhas de recompra e lembretes, conectando planilhas ao envio via API e segmentando mensagens por comportamento de compra.</p>
+            <p class="muted">Ganho de produtividade: ~10h semanais economizadas.</p>
+          </article>
+
+          <article class="project">
+            <h3>Desenvolvimento de jogos (projetos pessoais)</h3>
+            <div class="muted">Unity • C#</div>
+            <p>Projetos em andamento: jogo 2D top-down e jogo 3D FPS — implementação de mecânicas como disparo, alvos com explosão e plataformas móveis.</p>
+          </article>
+
+        </section>
+
+        <section class="card" style="margin-top:16px">
+          <div class="section-title"><h2>Como eu trabalho</h2><span class="muted">Processo</span></div>
+          <ol style="margin:0;padding-left:18px">
+            <li>Brief e entendimento do objetivo do cliente</li>
+            <li>Planejamento estratégico e cronograma</li>
+            <li>Desenvolvimento técnico (site, automação, sistema)</li>
+            <li>Medição de resultados e otimização contínua</li>
+          </ol>
+        </section>
+
+      </main>
+
+      <aside>
+        <div class="card">
+          <div class="section-title"><h2>Habilidades</h2><span class="muted">Técnicas</span></div>
+          <div class="skills" style="margin-bottom:12px">
+            <span class="skill">HTML / CSS / JS</span>
+            <span class="skill">C# / Unity</span>
+            <span class="skill">PHP • MySQL</span>
+            <span class="skill">Python (automação)</span>
+            <span class="skill">WordPress</span>
+            <span class="skill">Google Ads • Meta Ads</span>
+            <span class="skill">Canva • Figma</span>
+            <span class="skill">SEO • Analytics</span>
+          </div>
+
+          <div class="section-title"><h2>Ferramentas</h2><span class="muted">Workflow</span></div>
+          <ul class="muted">
+            <li>VS Code, Git</li>
+            <li>Google Analytics, Search Console</li>
+            <li>Meta Business Suite, Ads Manager</li>
+            <li>Canva, Figma, CapCut</li>
+          </ul>
+        </div>
+
+        <div class="card" style="margin-top:16px">
+          <div class="section-title"><h2>Depoimento</h2><span class="muted">Cliente</span></div>
+          <blockquote style="margin:0;color:var(--muted)">"O José desenvolveu o site da minha loja e cuidou das redes — os resultados foram excelentes e o atendimento foi ágil."<br><cite style="display:block;margin-top:8px;color:#cbd6e8">— Cassiano, empreendedor</cite></blockquote>
+        </div>
+
+        <div class="card" style="margin-top:16px">
+          <div class="section-title"><h2>Contato</h2><span class="muted">Vamos conversar?</span></div>
+          <p class="muted contact">Email: <a href="mailto:seunome@email.com">vieirabatistaze@gmail.com</a></p>
+          <p class="muted">Telefone: (34) 99677-4930</p>
+          <p class="muted">GitHub: <a href="#">github.com/josed3v</a></p>
+        </div>
+
+      </aside>
+    </div>
+
+    <footer>
+      <div class="muted"></div>
+    </footer>
+  </div>
+</body>
+</html>
